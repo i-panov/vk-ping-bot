@@ -6,7 +6,7 @@ import okhttp3.OkHttpClient
 import okhttp3.Request
 import kotlin.random.Random
 
-class MyVkApiClint(private val accessToken: String) {
+class MyVkApiClient(private val accessToken: String) {
     companion object {
         const val API_END_POINT = "https://api.vk.com/method/"
         const val API_VERSION = 5.199

@@ -11,7 +11,7 @@ class VkBotController {
 
     // посколько по заданию запрещено использовать готовые библиотеки реализующие VkApi
     // то от официального SDK отказался
-    private val vkApiClient = MyVkApiClint(VkApiSettings.instance.accessToken)
+    private val vkApiClient = MyVkApiClient(VkApiSettings.instance.accessToken)
 
     /*private val vk = VkApiClient(HttpTransportClient.getInstance())
     private val actor by lazy {
